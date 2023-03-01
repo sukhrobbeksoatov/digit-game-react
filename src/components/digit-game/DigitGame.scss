@@ -1,0 +1,46 @@
+.digit-game {
+  display: flex;
+  flex-direction: column;
+}
+
+.digit-game__title {
+  margin-bottom: 20px;
+  font-size: 44px;
+}
+
+.digit-game__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+.digit-game__input {
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  margin-bottom: 20px;
+  min-width: 400px;
+}
+
+.digit-game__text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.digit-game__text {
+  font-size: 18px;
+  color: #fff;
+  transition: color 0.5s ease;
+
+  &--success {
+    color: rgb(18, 235, 18);
+  }
+
+  &--danger {
+    color: orangered;
+  }
+}
